@@ -1,0 +1,18 @@
+#!/usr/bin/env mkb
+# Builder mkb file for the java portion of the rooOpenUDID extension on android
+platform JAVA
+
+files
+{
+    (source/android)
+    rooOpenUDID.java
+    (source/android/src)
+    org/OpenUDID/OpenUDID_manager.java
+    org/OpenUDID/OpenUDID_service.java
+
+}
+
+librarypath "$MARMALADE_ROOT/s3e/deploy/plugins/android/android.jar"
+librarypath "$MARMALADE_ROOT/s3e/loader/android/s3e_release.jar"
+
+option output-name=lib/android/rooOpenUDID.jar

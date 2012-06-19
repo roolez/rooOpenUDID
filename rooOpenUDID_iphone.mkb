@@ -1,0 +1,13 @@
+#!/usr/bin/env mkb
+# Builder mkb file for the rooOpenUDID extension on iphone
+platform IPHONE
+
+options
+{
+    lib
+    output-name="lib/iphone/librooOpenUDID.a"
+    output-name-debug="lib/iphone/librooOpenUDID_d.a"
+}
+define S3E_BUILD_EXT
+
+subproject rooOpenUDID_build

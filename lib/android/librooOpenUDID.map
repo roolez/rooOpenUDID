@@ -1,0 +1,438 @@
+Archive member included because of file (symbol)
+
+C:\soft\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+                              release\rooOpenUDID_platform.os (s3eEdkThreadRunOnOS)
+
+Discarded input sections
+
+ _ZN7_JNIEnv16CallObjectMethodEP8_jobjectP10_jmethodIDz
+                0x00000000        0x0 release\rooOpenUDID_platform.os
+ _ZN7_JNIEnv17CallBooleanMethodEP8_jobjectP10_jmethodIDz
+                0x00000000        0x0 release\rooOpenUDID_platform.os
+ _ZN7_JNIEnv14CallVoidMethodEP8_jobjectP10_jmethodIDz
+                0x00000000        0x0 release\rooOpenUDID_platform.os
+ _ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz
+                0x00000000        0x0 release\rooOpenUDID_platform.os
+ .text          0x00000000        0x0 release\rooOpenUDID_platform.os
+ .data          0x00000000        0x0 release\rooOpenUDID_platform.os
+ .note.GNU-stack
+                0x00000000        0x0 release\rooOpenUDID_platform.os
+ .text          0x00000000        0x0 release\rooOpenUDID.os
+ .data          0x00000000        0x0 release\rooOpenUDID.os
+ .bss           0x00000000        0x0 release\rooOpenUDID.os
+ .note.GNU-stack
+                0x00000000        0x0 release\rooOpenUDID.os
+ .text          0x00000000        0x0 release\rooOpenUDID_register.os
+ .data          0x00000000        0x0 release\rooOpenUDID_register.os
+ .bss           0x00000000        0x0 release\rooOpenUDID_register.os
+ .text._Z22rooOpenUDIDRegisterExtv
+                0x00000000        0x0 release\rooOpenUDID_register.os
+ .note.GNU-stack
+                0x00000000        0x0 release\rooOpenUDID_register.os
+ .text          0x00000000        0x0 C:\soft\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .data          0x00000000        0x0 C:\soft\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .bss           0x00000000        0x0 C:\soft\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .text.s3eEdkThreadRunOnOSAsync
+                0x00000000        0x0 C:\soft\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .ARM.extab.text.s3eEdkThreadRunOnOSAsync
+                0x00000000        0x0 C:\soft\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .ARM.exidx.text.s3eEdkThreadRunOnOSAsync
+                0x00000000        0x0 C:\soft\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .text.s3eEdkErrorSetString
+                0x00000000        0x0 C:\soft\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .ARM.extab.text.s3eEdkErrorSetString
+                0x00000000        0x0 C:\soft\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .ARM.exidx.text.s3eEdkErrorSetString
+                0x00000000        0x0 C:\soft\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:\soft\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD release\rooOpenUDID_platform.os
+LOAD release\rooOpenUDID.os
+LOAD release\rooOpenUDID_register.os
+LOAD C:\soft\marmalade\6.0\s3e\edk\lib\android\libedk.a
+LOAD C:\soft\marmalade\6.0\s3e\edk\lib\android/libplaceholderplaceholderplaceholderplaceholderplaceholder.so
+LOAD C:\soft\Android\android-ndk-r7b\platforms\android-9\arch-arm\usr\lib/libc.so
+LOAD C:\soft\Android\android-ndk-r7b\platforms\android-9\arch-arm\usr\lib/libm.so
+LOAD C:\soft\Android\android-ndk-r7b\platforms\android-9\arch-arm\usr\lib/liblog.so
+LOAD C:\soft\Android\android-ndk-r7b\platforms\android-9\arch-arm\usr\lib/libstdc++.so
+LOAD c:/soft/Android/android-ndk-r7b/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a
+                0x000000d4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000d4       0xa4
+ *(.hash)
+ .hash          0x000000d4       0xa4 release\rooOpenUDID_platform.os
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000178      0x160
+ *(.dynsym)
+ .dynsym        0x00000178      0x160 release\rooOpenUDID_platform.os
+
+.dynstr         0x000002d8      0x135
+ *(.dynstr)
+ .dynstr        0x000002d8      0x135 release\rooOpenUDID_platform.os
+
+.gnu.version    0x0000040e        0x0 load address 0x0000040d
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 release\rooOpenUDID_platform.os
+
+.gnu.version_d  0x00000410        0x0 load address 0x0000040d
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 release\rooOpenUDID_platform.os
+
+.gnu.version_r  0x00000410        0x0 load address 0x0000040d
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 release\rooOpenUDID_platform.os
+
+.rel.dyn        0x00000410       0x28
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00000410       0x28 release\rooOpenUDID_platform.os
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+
+.rela.dyn
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.plt        0x00000438       0x28
+ *(.rel.plt)
+ .rel.plt       0x00000438       0x28 release\rooOpenUDID_platform.os
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt            0x00000460       0x50
+ *(.plt)
+ .plt           0x00000460       0x50 release\rooOpenUDID_platform.os
+
+.text           0x000004b0      0x690
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text._Z29rooOpenUDIDTerminate_platformv
+                0x000004b0        0x4 release\rooOpenUDID_platform.os
+                0x000004b0                rooOpenUDIDTerminate_platform()
+ .text._ZN7_JNIEnv16CallObjectMethodEP8_jobjectP10_jmethodIDz
+                0x000004b4       0x38 release\rooOpenUDID_platform.os
+                0x000004b4                _JNIEnv::CallObjectMethod(_jobject*, _jmethodID*, ...)
+ .text._ZN7_JNIEnv17CallBooleanMethodEP8_jobjectP10_jmethodIDz
+                0x000004ec       0x38 release\rooOpenUDID_platform.os
+                0x000004ec                _JNIEnv::CallBooleanMethod(_jobject*, _jmethodID*, ...)
+ .text._ZN7_JNIEnv14CallVoidMethodEP8_jobjectP10_jmethodIDz
+                0x00000524       0x38 release\rooOpenUDID_platform.os
+                0x00000524                _JNIEnv::CallVoidMethod(_jobject*, _jmethodID*, ...)
+ .text._ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz
+                0x0000055c       0x38 release\rooOpenUDID_platform.os
+                0x0000055c                _JNIEnv::NewObject(_jclass*, _jmethodID*, ...)
+ .text._Z24rooOpenUDIDInit_platformv
+                0x00000594      0x20c release\rooOpenUDID_platform.os
+                0x00000594                rooOpenUDIDInit_platform()
+ .text._Z25rooOpenUDID_init_platformv
+                0x000007a0       0x58 release\rooOpenUDID_platform.os
+                0x000007a0                rooOpenUDID_init_platform()
+ .text._Z34rooOpenUDID_isInitialized_platformv
+                0x000007f8       0x60 release\rooOpenUDID_platform.os
+                0x000007f8                rooOpenUDID_isInitialized_platform()
+ .text._ZL27s3eEdkAndroidFindClass_realPKc
+                0x00000858       0xa0 release\rooOpenUDID_platform.os
+ .text._Z29rooOpenUDID_getValue_platformv
+                0x000008f8       0xc8 release\rooOpenUDID_platform.os
+                0x000008f8                rooOpenUDID_getValue_platform()
+ .text.rooOpenUDID_getValue
+                0x000009c0       0x10 release\rooOpenUDID.os
+                0x000009c0                rooOpenUDID_getValue
+ .text.rooOpenUDID_isInitialized
+                0x000009d0       0x10 release\rooOpenUDID.os
+                0x000009d0                rooOpenUDID_isInitialized
+ .text.rooOpenUDID_init
+                0x000009e0       0x10 release\rooOpenUDID.os
+                0x000009e0                rooOpenUDID_init
+ .text._Z20rooOpenUDIDTerminatev
+                0x000009f0       0x10 release\rooOpenUDID.os
+                0x000009f0                rooOpenUDIDTerminate()
+ .text._Z15rooOpenUDIDInitv
+                0x00000a00       0x10 release\rooOpenUDID.os
+                0x00000a00                rooOpenUDIDInit()
+ .text._ZL25rooOpenUDID_getValue_wrapv
+                0x00000a10       0x20 release\rooOpenUDID_register.os
+ .text._ZL30rooOpenUDID_isInitialized_wrapv
+                0x00000a30       0x28 release\rooOpenUDID_register.os
+ .text._ZL21rooOpenUDID_init_wrapv
+                0x00000a58       0x20 release\rooOpenUDID_register.os
+ .text.RegisterExt
+                0x00000a78       0x98 release\rooOpenUDID_register.os
+                0x00000a78                RegisterExt
+ .text.s3eEdkThreadRunOnOS
+                0x00000b10       0x30 C:\soft\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+                0x00000b10                s3eEdkThreadRunOnOS
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.fini
+ *(.fini)
+                0x00000b40                PROVIDE (__etext, .)
+                0x00000b40                PROVIDE (_etext, .)
+                0x00000b40                PROVIDE (etext, .)
+
+.rodata         0x00000b40       0x7c
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x00000b40       0x7c release\rooOpenUDID_platform.os
+ .rodata.str1.4
+                0x00000000        0xc release\rooOpenUDID_register.os
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab      0x00000bbc        0xc
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab.text.s3eEdkThreadRunOnOS
+                0x00000bbc        0xc C:\soft\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+                0x00000bc8                __exidx_start = .
+
+.ARM.exidx      0x00000bc8        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx.text.s3eEdkThreadRunOnOS
+                0x00000bc8        0x8 C:\soft\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+                0x00000bd0                __exidx_end = .
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+                0x00000bd0                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00001bd0                . = (0x1000 DATA_SEGMENT_ALIGN 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(.fini_array)
+ *(SORT(.fini_array.*))
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00001bd0       0xa8
+ *(.dynamic)
+ .dynamic       0x00001bd0       0xa8 release\rooOpenUDID_platform.os
+                0x00001bd0                _DYNAMIC
+                0x00001c78                . = (. DATA_SEGMENT_RELRO_END 0x0)
+
+.got            0x00001c78       0x34
+ *(.got.plt)
+ .got.plt       0x00001c78       0x20 release\rooOpenUDID_platform.os
+                0x00001c78                _GLOBAL_OFFSET_TABLE_
+ *(.got)
+ .got           0x00001c98       0x14 release\rooOpenUDID_platform.os
+
+.data           0x00001cac        0x0
+                0x00001cac                __data_start = .
+ *(.data .data.* .gnu.linkonce.d.*)
+
+.data1
+ *(.data1)
+                0x00001cac                _edata = .
+                0x00001cac                PROVIDE (edata, .)
+                0x00001cac                __bss_start = .
+                0x00001cac                __bss_start__ = .
+
+.bss            0x00001cac       0x14
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 release\rooOpenUDID_platform.os
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00001cac       0x14 release\rooOpenUDID_platform.os
+                0x00001cbc                g_Str
+ *(COMMON)
+                0x00001cc0                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00001cc0                _bss_end__ = .
+                0x00001cc0                __bss_end__ = .
+                0x00001cc0                . = ALIGN (0x4)
+                0x00001cc0                . = ALIGN (0x4)
+                0x00001cc0                __end__ = .
+                0x00001cc0                _end = .
+                0x00001cc0                PROVIDE (end, .)
+                0x00001cc0                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x61
+ *(.comment)
+ .comment       0x00000000       0x12 release\rooOpenUDID_platform.os
+ .comment       0x00000012       0x12 release\rooOpenUDID.os
+ .comment       0x00000024       0x12 release\rooOpenUDID_register.os
+ .comment       0x00000036       0x2b C:\soft\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+OUTPUT(C:\soft\marmalade\6.0\extensions\rooopenudid\lib\android\librooOpenUDID.so elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x2a
+ .ARM.attributes
+                0x00000000       0x28 release\rooOpenUDID_platform.os
+ .ARM.attributes
+                0x00000028       0x28 release\rooOpenUDID.os
+ .ARM.attributes
+                0x00000050       0x28 release\rooOpenUDID_register.os
+ .ARM.attributes
+                0x00000078       0x2c C:\soft\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)

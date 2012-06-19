@@ -1,0 +1,17 @@
+#!/usr/bin/env mkb
+# Builder mkb file for the rooOpenUDID extension on android
+platform LINUX
+
+buildtype (SCONS, ARM)
+
+define S3E_ANDROID
+
+options
+{
+    dll
+    output-name="lib/android/librooOpenUDID.so"
+    output-name-debug="lib/android/librooOpenUDID_d.so"
+}
+define S3E_BUILD_EXT
+
+subproject rooOpenUDID_build

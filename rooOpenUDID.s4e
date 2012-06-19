@@ -1,0 +1,12 @@
+include:
+
+#include <s3eTypes.h>
+
+functions:
+
+
+void rooOpenUDID_init() run_on_os_thread
+bool rooOpenUDID_isInitialized() false run_on_os_thread
+const char * rooOpenUDID_getValue() NULL run_on_os_thread
+
+
